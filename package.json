@@ -1,0 +1,37 @@
+{
+  "name": "@mortimer333/typescript-skeleton",
+  "version": "0.0.1",
+  "description": "Just skeleton for any typescript library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mortimer333/typescript-skeleton.git"
+  },
+  "keywords": [
+    "nodejs",
+    "package"
+  ],
+  "author": "",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/Mortimer333/typescript-skeleton/issues"
+  },
+  "homepage": "https://github.com/Mortimer333/typescript-skeleton#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.4.5"
+  }
+}
